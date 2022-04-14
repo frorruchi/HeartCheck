@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# my_app.py
-
 from PyQt5.QtCore import Qt, QTimer, QTime, QLocale
 from PyQt5.QtGui import QDoubleValidator, QIntValidator, QFont # проверка типов вводимых значений
 from PyQt5.QtWidgets import (
@@ -59,6 +56,3 @@ class MainWin(QWidget): #sgsdgdsgpudge
 app = QApplication([])
 mw = MainWin()
 app.exec_()
-=======
-# напиши здесь код основного приложения и первого экрана
->>>>>>> c94e5daa3316289032bac518d7cb0fae5546cbf4

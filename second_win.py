@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# second_win.py
-
 from PyQt5.QtCore import Qt, QTimer, QTime, QLocale
 from PyQt5.QtGui import QDoubleValidator, QIntValidator, QFont # проверка типов вводимых значений
 from PyQt5.QtWidgets import (
@@ -181,14 +178,10 @@ class TestWin(QWidget):
         self.btn_test2.clicked.connect(self.timer_bob)
         self.btn_test3.clicked.connect(self.timer_final)
 
-Lux In Tenebris, [07.04.2022 18:38]
-
 
     ''' устанавливает, как будет выглядеть окно (надпись, размер, место) '''
     def set_appear(self):
         self.setWindowTitle(txt_title)
         self.resize(win_width, win_height)
         self.move(win_x, win_y)
-=======
-# напиши здесь код для второго экрана приложения
->>>>>>> c94e5daa3316289032bac518d7cb0fae5546cbf4
+
