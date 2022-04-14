@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # second_win.py
 
 from PyQt5.QtCore import Qt, QTimer, QTime, QLocale
@@ -188,3 +189,6 @@ Lux In Tenebris, [07.04.2022 18:38]
         self.setWindowTitle(txt_title)
         self.resize(win_width, win_height)
         self.move(win_x, win_y)
+=======
+# напиши здесь код для второго экрана приложения
+>>>>>>> c94e5daa3316289032bac518d7cb0fae5546cbf4

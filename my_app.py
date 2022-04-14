@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # my_app.py
 
 from PyQt5.QtCore import Qt, QTimer, QTime, QLocale
@@ -12,7 +13,7 @@ from instr import *
 from second_win import *
 
        
-class MainWin(QWidget):
+class MainWin(QWidget): #sgsdgdsgpudge
     def __init__(self):
         ''' окно, в котором располагается приветствие '''
         super().__init__()
@@ -58,3 +59,6 @@ class MainWin(QWidget):
 app = QApplication([])
 mw = MainWin()
 app.exec_()
+=======
+# напиши здесь код основного приложения и первого экрана
+>>>>>>> c94e5daa3316289032bac518d7cb0fae5546cbf4
